@@ -40,8 +40,8 @@ const toggleMenu = () => {
                 mobileDrawOpen && (
                     <div className=" fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
                         <ul>
-                        <li className='py-4 '><a className='hover:text-neutral-300' href="/">Home</a></li>
-                        <li className='py-4 '><a className='hover:text-neutral-300' href="/about">About</a></li>
+                        <li className='py-4 '><Link to={'/'} className='hover:text-neutral-300' href="/">Home</Link></li>
+                        <li className='py-4 '><Link to={'/about'} className='hover:text-neutral-300' href="/about">About</Link></li>
                         </ul>
                         
                     </div>
