@@ -23,7 +23,7 @@ const toggleMenu = () => {
                 <ul className='hidden lg:flex ml-14 space-x-24'>
                     <li className='hover:text-neutral-300'>
                         {/* <a className='hover:text-neutral-300' href="/">Home</a> */}
-                        <Link to={'/'}>Home</Link>
+                        <Link to={'/home'}>Home</Link>
                         </li>
                     <li className='hover:text-neutral-300'>
                        {/*  <a className='hover:text-neutral-300' href="/about">About</a> */}
