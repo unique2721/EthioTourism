@@ -19,8 +19,8 @@ const toggleMenu = () => {
                     <span className='text-xl tracking-tight'>EthioTourism</span>
                 </div>
                 <ul className='hidden lg:flex ml-14 space-x-24'>
-                    <li><a className='hover:text-neutral-300' href="#">Home</a></li>
-                    <li><a className='hover:text-neutral-300' href="#about">About</a></li>
+                    <li><a className='hover:text-neutral-300' href="/">Home</a></li>
+                    <li><a className='hover:text-neutral-300' href="/about">About</a></li>
                 </ul>
                 <div className=' lg:hidden md:flex flex-col justify-end'>
                     <button onClick={toggleMenu}>
@@ -32,8 +32,8 @@ const toggleMenu = () => {
                 mobileDrawOpen && (
                     <div className=" fixed right-0 z-20 bg-neutral-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
                         <ul>
-                        <li className='py-4 '><a className='hover:text-neutral-300' href="#">Home</a></li>
-                        <li className='py-4 '><a className='hover:text-neutral-300' href="#about">About</a></li>
+                        <li className='py-4 '><a className='hover:text-neutral-300' href="/">Home</a></li>
+                        <li className='py-4 '><a className='hover:text-neutral-300' href="/about">About</a></li>
                         </ul>
                         
                     </div>
