@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="text-2xl text-neutral-300">
             <a className="mx-10 hover:text-neutral-400" href="">Github</a>
             <a className="mx-10 hover:text-neutral-400" href="">Figma</a>
-            <a className="mx-10 hover:text-neutral-400" href="">Vercel</a>
+            <a href="https://ethio-tourism.vercel.app/" target="_blank" className="mx-10 hover:text-neutral-400">Vercel</a>
         </div>
       </div>
     </div>
