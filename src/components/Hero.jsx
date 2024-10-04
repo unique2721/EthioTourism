@@ -10,9 +10,9 @@ const Hero = () => {
       <div className="flex justify-center my-10">
         <a href="#about" className=" bg-gradient-to-t from-orange-500 t0-orange-800 py-3 px-4 mx-3 rounded-md">Learn More</a>
       </div>
-      <div className="flex justify-center items-center mt-10 w-1/2">
-        <img className=" rounded-lg border w-full border-x-orange-700 shadow-orange-400 mx-2 my-4" src={abayyy} alt="abay" />
-        <img className=" rounded-lg border w-full border-x-orange-700 shadow-orange-400 mx-2 my-4" src={axum} alt="axum" />
+      <div className="flex justify-center items-center mt-10 sm:flex-col md:flex-row">
+        <img className=" rounded-lg border sm:w-[500px] md:w-[600px] h-[300px] border-x-orange-700 shadow-orange-400 mx-2 my-4" src={abayyy} alt="abay" />
+        <img className=" rounded-lg border sm:w-[500px] md:w-[600px] h-[300px] border-x-orange-700 shadow-orange-400 mx-2 my-4" src={axum} alt="axum" />
       </div>
     </div>
   )
