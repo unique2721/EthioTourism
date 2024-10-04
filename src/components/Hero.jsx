@@ -11,8 +11,8 @@ const Hero = () => {
         <a href="#about" className=" bg-gradient-to-t from-orange-500 t0-orange-800 py-3 px-4 mx-3 rounded-md">Learn More</a>
       </div>
       <div className="flex justify-center items-center mt-10 sm:flex-col md:flex-row">
-        <img className=" rounded-lg border sm:w-[500px] md:w-[600px] h-[300px] border-x-orange-700 shadow-orange-400 mx-2 my-4" src={abayyy} alt="abay" />
-        <img className=" rounded-lg border sm:w-[500px] md:w-[600px] h-[300px] border-x-orange-700 shadow-orange-400 mx-2 my-4" src={axum} alt="axum" />
+        <img className=" rounded-lg sm:w-[600px] md:w-[450px] lg:w-[600px] h-[300px] border border-x-orange-700 shadow-orange-400 mx-2 my-4" src={abayyy} alt="abay" />
+        <img className=" rounded-lg sm:w-[600px] md:w-[450px] lg:w-[600px] h-[300px] border border-x-orange-700 shadow-orange-400 mx-2 my-4" src={axum} alt="axum" />
       </div>
     </div>
   )
