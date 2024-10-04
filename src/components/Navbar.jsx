@@ -1,8 +1,10 @@
 /* icons */
-import { Link, Menu,X } from 'lucide-react'
+import { Menu,X } from 'lucide-react'
 import { useState } from 'react'
 /* images */
 import logo from '../assets/logo.png'
+/* routing */
+import Link from 'react-router-dom'
 
 const Navbar = () => {
 const [mobileDrawOpen,setMobileDrawOpen] = useState(false);
@@ -19,8 +21,14 @@ const toggleMenu = () => {
                     <span className='text-xl tracking-tight'>EthioTourism</span>
                 </div>
                 <ul className='hidden lg:flex ml-14 space-x-24'>
-                    <li><a className='hover:text-neutral-300' href="/">Home</a></li>
-                    <li><a className='hover:text-neutral-300' href="/about">About</a></li>
+                    <li>
+                        {/* <a className='hover:text-neutral-300' href="/">Home</a> */}
+                        <Link to="/">Home</Link>
+                        </li>
+                    <li>
+                       {/*  <a className='hover:text-neutral-300' href="/about">About</a> */}
+                       <Link to="/about">About</Link>
+                        </li>
                 </ul>
                 <div className=' lg:hidden md:flex flex-col justify-end'>
                     <button onClick={toggleMenu}>
