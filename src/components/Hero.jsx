@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="flex justify-center my-10">
         <Link to={'/about'} className=" bg-gradient-to-t from-orange-500 t0-orange-800 py-3 px-4 mx-3 rounded-md hover:text-neutral-200">Learn More</Link>
       </div>
-      <div className="flex justify-center items-center mt-10 sm:flex-col md:flex-row">
+      <div className="flex flex-wrap justify-center items-center mt-10 sm:flex-col md:flex-row">
         <img className=" rounded-lg sm:w-[600px] md:w-[450px] lg:w-[600px] h-[300px] border border-x-orange-700 shadow-orange-400 mx-2 my-4" src={abayyy} alt="abay" />
         <img className=" rounded-lg sm:w-[600px] md:w-[450px] lg:w-[600px] h-[300px] border border-x-orange-700 shadow-orange-400 mx-2 my-4" src={axum} alt="axum" />
       </div>
