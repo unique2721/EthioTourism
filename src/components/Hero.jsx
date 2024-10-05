@@ -1,6 +1,6 @@
 /* images */
 import { Link } from 'react-router-dom'
-import abayyy from '../assets/abayyy.png'
+import abayyyy from '../assets/abayyyy.png'
 import axum from '../assets/axum.png'
 
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
         <Link to={'/about'} className=" bg-gradient-to-t from-orange-500 t0-orange-800 py-3 px-4 mx-3 rounded-md hover:text-neutral-200">Learn More</Link>
       </div>
       <div className="flex flex-wrap justify-center items-center mt-10">
-        <img className=" rounded-lg sm:w-[600px] md:w-[400px] lg:w-[500px] h-[300px] border border-x-orange-700 shadow-orange-400 mx-2 my-4" src={abayyy} alt="abay" />
+        <img className=" rounded-lg sm:w-[600px] md:w-[400px] lg:w-[500px] h-[300px] border border-x-orange-700 shadow-orange-400 mx-2 my-4" src={abayyyy} alt="abay" />
         <img className=" rounded-lg sm:w-[600px] md:w-[400px] lg:w-[500px] h-[300px] border border-x-orange-700 shadow-orange-400 mx-2 my-4" src={axum} alt="axum" />
       </div>
     </div>
