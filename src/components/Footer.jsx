@@ -2,6 +2,7 @@
 import gitlogo from '../assets/gitlogo.png'
 import figmalogo from '../assets/figmalogo.png'
 import vercellogo from '../assets/vercellogo.png'
+
 const Footer = () => {
   return (
     <div className="mt-20 mx-10 border-t py-10 border-x-neutral-700 overflow-hidden">
