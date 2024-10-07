@@ -98,7 +98,7 @@ const Hero = () => {
         <Slider {...settings}>
         {
           data.map((d,index) => (
-            <div key={index} className='bg-white h-[550px] text-black rounded-xl'>
+            <div key={index} className='bg-white h-[550px] text-black rounded-xl pb-10'>
             <div className='rounded-t-xl flex flex-wrap justify-center items-center'>
               <img className='w-full object-contain block m-auto rounded-t-xl' src={d.img} alt="" />
             </div>
