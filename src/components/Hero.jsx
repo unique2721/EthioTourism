@@ -52,17 +52,17 @@ const Hero = () => {
     {
       name: "Abay",
       img: abayyyy,
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit eligendi voluptates nisi eveniet ab, temporibus cum, ducimus voluptatum, facilis tempore mollitia nemo. Iste, harum porro repellat minima laboriosam vel?'
+      description: 'The Blue Nile originates at Lake Tana in Ethiopia (where it is called the Abay River). The river flows generally south before entering a canyon about 400 km (250 mi) long, about 30 km (19 mi) from Lake Tana, which is a tremendous obstacle for travel and communication between north and south Ethiopia.'
     },
     {
       name: "Axum",
       img: axum,
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit eligendi voluptates nisi eveniet ab, temporibus cum, ducimus voluptatum, facilis tempore mollitia nemo. Iste, harum porro repellat minima laboriosam vel?'
+      description: 'Axum is located in the Central Zone of the Tigray Region, near the base of the Adwa mountains. It has an elevation of 2,131 metres (6,991 feet) and is surrounded by La ilay Maychew, a separately administered woreda of the Tigray region.'
     },
     {
       name: "Forest",
       img: forest,
-      description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit eligendi voluptates nisi eveniet ab, temporibus cum, ducimus voluptatum, facilis tempore mollitia nemo. Iste, harum porro repellat minima laboriosam vel?'
+      description: 'In the late nineteenth century, about 30% of Ethiopia was covered with forest. The clearing of land for agricultural use and the cutting of trees for fuel gradually changed the scene, and today forest areas have dwindled to less than 4% of Ethiopias total land.'
     },
     {
       name: "Wenchi",
