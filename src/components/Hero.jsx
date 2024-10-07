@@ -52,7 +52,7 @@ const Hero = () => {
     {
       name: "Abay",
       img: abayyyy,
-      description: 'The Blue Nile originates at Lake Tana in Ethiopia (where it is called the Abay River). The river flows generally south before entering a canyon about 400 km (250 mi) long, about 30 km (19 mi) from Lake Tana, which is a tremendous obstacle for travel and communication between north and south Ethiopia.'
+      description: 'The Blue Nile originates at Lake Tana in Ethiopia. The river flows generally south before entering a canyon about 400 km long, about 30 km from Lake Tana, which is a tremendous obstacle for travel and communication between north and south Ethiopia.'
     },
     {
       name: "Axum",
