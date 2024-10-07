@@ -29,17 +29,16 @@ const Hero = () => {
           slidesToScroll: 3,
         }
       },
-        
       {
-        breakpoint: 768,
+        breakpoint: 975,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
         }
       },
-      
+        
       {
-        breakpoint: 500,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
