@@ -99,7 +99,7 @@ const Hero = () => {
         {
           data.map((d,index) => (
             <div key={index} className='bg-white h-[550px] text-black rounded-xl'>
-            <div className='rounded-t-xl flex flex-wrap justify-center items-center h-1/3'>
+            <div className='rounded-t-xl flex flex-wrap justify-center items-center'>
               <img className='w-full object-contain block m-auto rounded-t-xl' src={d.img} alt="" />
             </div>
           <div className='flex flex-col justify-center items-center gap-4 p-4 h-2/3'>
