@@ -105,7 +105,6 @@ const Hero = () => {
           <div className='flex flex-col justify-center items-center gap-4 p-4'>
             <p className='text-xl font-semibold'>{d.name}</p>
             <p className='text-center'>{d.description}</p>
-            {/* <button className='bg-indigo-500 bg-gradient-to-t text-white text-lg px-6 py-1 rounded-xl'>Read More</button> */}
             <button className=" bg-gradient-to-t from-orange-500 t0-orange-800 py-3 px-4 mx-3 rounded-md hover:text-neutral-200 text-white bg-black">Read More</button>
           </div>
           </div>
