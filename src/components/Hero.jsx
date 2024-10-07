@@ -38,7 +38,7 @@ const Hero = () => {
       },
         
       {
-        breakpoint: 625,
+        breakpoint: 700,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
