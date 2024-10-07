@@ -111,17 +111,7 @@ const Hero = () => {
          ))
         }
       </Slider>
-
       </div> 
-
-      {/* <div className="flex flex-wrap justify-center items-center mt-10">
-        <div>
-        <img className=" rounded-lg sm:w-[600px] md:w-[400px] lg:w-[500px] h-[300px] border border-x-orange-700 shadow-orange-400 mx-2 my-4" src={abayyyy} alt="abay" />
-        </div>
-        <div>
-        <img className=" rounded-lg sm:w-[600px] md:w-[400px] lg:w-[500px] h-[300px] border border-x-orange-700 shadow-orange-400 mx-2 my-4" src={axum} alt="axum" />
-        </div>
-      </div> */}
     </div>
   )
 }
