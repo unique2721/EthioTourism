@@ -5,7 +5,7 @@ import axum from '../assets/axum.png'
 import forest from '../assets/forest.jpg'
 import wenchi from '../assets/wenchi.jpg'
 import zquala from '../assets/zquala.jpg'
-import gondar from '../assets/gondar.png'
+import gumera from '../assets/gumera.png'
 import monkey from '../assets/monkey.png'
 
 /* slider */
@@ -50,8 +50,8 @@ const Hero = () => {
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit eligendi voluptates nisi eveniet ab, temporibus cum, ducimus voluptatum, facilis tempore mollitia nemo. Iste, harum porro repellat minima laboriosam vel?'
     },
     {
-      name: "Gondar",
-      img: gondar,
+      name: "Esate Gumera",
+      img: gumera,
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit eligendi voluptates nisi eveniet ab, temporibus cum, ducimus voluptatum, facilis tempore mollitia nemo. Iste, harum porro repellat minima laboriosam vel?'
     },
     {
@@ -75,7 +75,7 @@ const Hero = () => {
           data.map((d,index) => (
             <div key={index} className='bg-white h-[550px] text-black rounded-xl'>
             <div className='rounded-t-xl flex flex-wrap justify-center items-center h-1/3'>
-              <img className='w-full object-contain block m-auto' src={d.img} alt="" />
+              <img className='w-full object-contain block m-auto rounded-t-xl' src={d.img} alt="" />
             </div>
           <div className='flex flex-col justify-center items-center gap-4 p-4 h-2/3'>
             <p className='text-xl font-semibold'>{d.name}</p>
@@ -86,7 +86,17 @@ const Hero = () => {
          ))
         }
       </Slider>
+
       </div> 
+
+      {/* <div className="flex flex-wrap justify-center items-center mt-10">
+        <div>
+        <img className=" rounded-lg sm:w-[600px] md:w-[400px] lg:w-[500px] h-[300px] border border-x-orange-700 shadow-orange-400 mx-2 my-4" src={abayyyy} alt="abay" />
+        </div>
+        <div>
+        <img className=" rounded-lg sm:w-[600px] md:w-[400px] lg:w-[500px] h-[300px] border border-x-orange-700 shadow-orange-400 mx-2 my-4" src={axum} alt="axum" />
+        </div>
+      </div> */}
     </div>
   )
 }
